@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "spacex",
+    platforms: [
+        .macOS(.v14)
+    ],
     targets: [
         .target(
             name: "SpacexCore"
